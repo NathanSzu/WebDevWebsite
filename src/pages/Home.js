@@ -1,9 +1,11 @@
 import React from 'react'
+import BackgroundHome from '../components/BackgroundHome'
 
 export default function Home() {
     return (
-        <div>
+        <main>
+            <BackgroundHome />
             
-        </div>
+        </main>
     )
 }

@@ -1,0 +1,29 @@
+.background {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: -2;
+}
+
+.fit-cover {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.nav-backer {
+    position: absolute;
+    background-color: black;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    opacity: 75%;
+    z-index: -1;
+}
+
+.nav-link {
+    color: white;
+}
